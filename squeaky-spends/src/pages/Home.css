@@ -1,0 +1,70 @@
+.home-bg{
+    background-image: url("../imagedump/lobbypage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+}
+
+.portrait-view > * {
+    width: auto;
+    height: auto;
+    transform: rotate(0);
+    transform-origin: top left;
+  }
+  
+  @media(orientation: landscape) {
+    .portrait-view {
+      width: 100%;
+      height: 100vw;
+      display: block;
+    }
+  
+    .portrait-view > * {
+      width: auto;
+      height: 100vw;
+      transform: rotate(90deg);
+      transform-origin: top left;
+    }
+  }
+
+  .income {
+    background-image: url("../imagedump/percypig.png");
+    background-size: contain; 
+    background-position: center; 
+    width: 320px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+  }
+
+  .expense{
+    background-image: url("../imagedump/percypig.png");
+    background-size: contain; 
+    background-position: center; 
+    width: 320px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    left: 30%;
+  }
+  
+  .total{
+    background-image: url("../imagedump/coin.png");
+    background-size: contain; 
+    background-position: center; 
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    left: 60%;
+  }

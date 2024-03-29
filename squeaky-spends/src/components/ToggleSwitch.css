@@ -1,0 +1,23 @@
+.toggle-switch {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    background-color: #ddd;
+    border-radius: 15px;
+  }
+  
+  .toggle-switch-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+  
+  .toggle-switch-inner.checked {
+    left: 30px;
+  }
