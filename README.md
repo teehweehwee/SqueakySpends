@@ -34,4 +34,5 @@ The code consist of the following components:
 
 ## Future Enhancements 💄
 - upload images of receipts or purchases (e.g. food,bbt,cabinet,handbags)
+- use other external APIs to enhance the functionality of the expense tracker (pie chart, notifications through twillio external API that i'm broke/overspending)
 - alot more CSS
